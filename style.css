@@ -5,6 +5,14 @@ body {
   flex-direction: colomn;
 }
 
+.top-section{
+  display: flex;
+}
+
+.left-section{}
+
+.right-section{}
+
 .text {
   color: black;
   font-family: "UnifrakturMaguntia", cursive; 
@@ -27,3 +35,5 @@ button {
   justify-content: center;
   align-items: center;
 }
+
+
