@@ -35,7 +35,7 @@ body {
 }
 
 button {
-  border: 25px solid red; 
+  border: 2px solid red; 
   border-radius: 25px; 
   height: 30px;
   width: fit-content;
