@@ -35,12 +35,13 @@ body {
 }
 
 button {
+  border-radius: 25px; 
   height: 30px;
   width: fit-content;
   padding: 10px;
   border: 2px solid red; 
   margin: 10px; 
-  border-radius: 25px; 
+  
 }
 
 
