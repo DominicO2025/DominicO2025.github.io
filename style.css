@@ -13,6 +13,7 @@ body {
   align-items: center; 
   padding: 1rem 0; 
   gap: 1.2rem; 
+  width: 250px;
 }
 
 .main-container{
