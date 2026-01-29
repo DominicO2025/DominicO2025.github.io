@@ -16,6 +16,7 @@ body {
   width: 250px;
 }
 
+
 .main-container{
   flex-growth: 1;
   display: flex;
