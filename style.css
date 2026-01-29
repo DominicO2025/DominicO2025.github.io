@@ -64,13 +64,9 @@ button {
 }
 
 .centered {
-  flex-growth: 1;
   display: flex;
   justify-content: center; 
   align-items: center; 
-  padding: 1rem 0; 
-  gap: 1.2rem; 
-  width: 250px;
 }
    
 
