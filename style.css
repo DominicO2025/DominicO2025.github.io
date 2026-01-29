@@ -5,9 +5,6 @@ body {
   flex-direction: colomn;
 }
 
-.top-section{
-}
-
 .middle-selection{
   flex-growth: 1;
   display: flex;
