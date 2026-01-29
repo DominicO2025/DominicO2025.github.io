@@ -42,7 +42,7 @@ button {
   height: 30px;
   width: fit-content;
   padding: 10px;
-  justify-content: center; 
+  text-align: center; 
   margin: 10px; 
   background: black; 
 }
