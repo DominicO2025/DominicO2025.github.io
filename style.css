@@ -8,7 +8,7 @@ body {
 .side-bar{
   flex-growth: 1;
   display: flex;
-  flex-direction: colomn;
+  flex-direction: column;
   justify-content: center; 
   align-items: center; 
   padding: 1rem 0; 
