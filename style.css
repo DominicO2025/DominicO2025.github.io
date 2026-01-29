@@ -15,14 +15,16 @@ body {
   gap: 1.2rem; 
 }
 
-.left-section{
+.main-container{
+  flex-growth: 1;
   display: flex;
-  gap: 1rem; 
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
+  justify-content: center; 
+  align-items: center; 
+  padding: 1rem 0; 
+  gap: 1.2rem; 
 }
 
-.right-section{}
 
 .text {
   color: white;
@@ -45,13 +47,5 @@ button {
   background: black; 
 }
 
-
-
-.centered-div {
-  height: 100vh; 
-  display: flex; 
-  justify-content: center;
-  align-items: center;
-}
 
 
