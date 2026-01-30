@@ -21,6 +21,11 @@ body {
   width: 250px;
 }
 
+aside {
+  position: sticky;
+  top: 2rem; 
+}
+
 
 .main-container{
   flex-growth: 1;
