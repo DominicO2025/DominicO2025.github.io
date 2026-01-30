@@ -11,19 +11,21 @@ body {
   overflow: visible; 
 }
 
-.side-bar{
-  flex-growth: 1;
+.layout {
   display: flex;
-  flex-direction: column;
-  align-items: center; 
-  padding: 1rem 0; 
-  gap: 1.2rem; 
-  width: 250px;
+  align-items: flex-start; /* important: prevents centering weirdness */
 }
 
-aside {
+.sidebar {
+  width: 260px;
   position: sticky;
-  top: 2rem; 
+  top: 20px;          /* distance from top while sticking */
+  height: fit-content; /* prevents stretching */
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
 }
 
 
