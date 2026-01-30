@@ -3,6 +3,8 @@ body {
   background-color: black;
   background: flex;
   flex-direction: colomn;
+  margin: 0;
+  padding: 0;
 }
 
 .side-bar{
