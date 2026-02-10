@@ -72,8 +72,8 @@ button {
 }
 
 .profile {
-  width: 150px; 
-  height: 200px; 
+  width: 7rem; 
+  height: 10rem; 
   overflow: hidden;
   border-radius: 100%; 
 }
