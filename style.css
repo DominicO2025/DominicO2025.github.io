@@ -72,10 +72,10 @@ button {
 }
 
 .profile {
-  width: 75px; 
-  height: 100px; 
+  width: 150px; 
+  height: 200px; 
   overflow: hidden;
-  
+  border-radius: 100%; 
 }
 
 
