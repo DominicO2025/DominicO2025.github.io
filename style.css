@@ -72,16 +72,10 @@ button {
 }
 
 .profile {
+  height: 100px; 
+  width: 75px; 
   overflow: hidden;
   border-radius: 100%; 
-}
-
-
-.profile img {
-  width: 1%;
-  height: 1%;
-  object-fit: cover; 
-  object-position: center;
 }
 
 .centered {
