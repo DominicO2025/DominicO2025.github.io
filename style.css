@@ -117,7 +117,15 @@ button {
   font-size: 30px;
 }
    
-
+.project-text {
+  color: white;
+  font-family: "Playfair", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal; 
+  font-variation-settings: "wdth" 100;
+  font-size: 25px;
+}
 
 
 
