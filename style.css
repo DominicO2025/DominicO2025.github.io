@@ -129,8 +129,7 @@ button {
     width: 300px;
     height: 150px;
     background-color: black;
-    padding: 20px;
-    border: 1px solid #ccc;
+    padding: 100px;
 }
 
 .clickable-box-link:hover {
