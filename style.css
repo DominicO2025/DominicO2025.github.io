@@ -2,7 +2,6 @@
 body {
   background-color: black;
   background: flex;
-  flex-direction: row;
   margin: 0;
   padding: 0;
   align-items: start; 
