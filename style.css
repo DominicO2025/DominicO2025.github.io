@@ -18,8 +18,8 @@ body {
 .sidebar {
   width: 260px;
   position: sticky;
-  top: 500px;          /* distance from top while sticking */
-  height: fit-content; /* prevents stretching */
+  top: 500px;          
+  height: fit-content; 
 }
 
 .content {
@@ -93,8 +93,6 @@ button {
   display: block;
   margin-bottom: 12px;
   text-decoration: none;
-
-  /* Needed so transform works properly */
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -135,5 +133,6 @@ button {
     border: 1px solid #ccc;
 }
 
-
+.clickable-box-link:hover {
+    background-color: #add8e6; 
 
