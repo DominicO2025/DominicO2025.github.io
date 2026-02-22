@@ -119,7 +119,6 @@ button {
    
 .project-text {
   color: white;
-  flex: row; 
   font-family: "Playfair", serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
