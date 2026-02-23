@@ -110,7 +110,7 @@ button {
 .proj-box {
   border: 3px solid white;
   border-radius: 25px;
-  height: 50px;
+  height: 200px;
   width: 200px;
 
   display: flex;              /* ADD THIS */
