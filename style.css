@@ -126,7 +126,7 @@ button {
 .proj-link {
   display: inline-block; 
   margin: 12px;
-  justify-content: center; 
+  text-align: center; 
   text-decoration: none;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
