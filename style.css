@@ -123,8 +123,9 @@ button {
 }
 
 .proj-link {
-  display: flex; 
+  display: inline-block; 
   margin-bottom: 12px;
+  justify-content: center; 
   text-decoration: none;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
