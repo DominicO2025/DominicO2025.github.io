@@ -107,7 +107,7 @@ button {
   cursor: pointer;
 }
 
-.nav-box {
+.proj-box {
   border: 3px solid white; 
   border-radius: 25px; 
   height: 50px;
@@ -120,6 +120,17 @@ button {
   width: 45%;
   padding: 12px 16px;
   cursor: pointer;
+}
+
+.proj-link {
+  margin-bottom: 12px;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.proj-link:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }
 
 .container {
