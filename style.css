@@ -151,6 +151,7 @@ button {
   font-style: normal; 
   font-variation-settings: "wdth" 100;
   font-size: 25px;
+  align: center; 
 }
 
 .clickable-box-link {
