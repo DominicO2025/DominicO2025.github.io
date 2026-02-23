@@ -123,6 +123,7 @@ button {
 }
 
 .proj-link {
+  display: flex; 
   margin-bottom: 12px;
   text-decoration: none;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
