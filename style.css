@@ -17,9 +17,8 @@ body {
 
 .sidebar {
   width: 260px;
-  position: fixed;
-  top: 20px;       
-  left: 20px; 
+  position: sticky;
+  top: 500px;        
   height: fit-content; 
 }
 
