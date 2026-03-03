@@ -186,3 +186,15 @@ button {
     background-color: #add8e6; 
 }
 
+
+.divided-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  align-items: center; 
+  padding: 1rem 0; 
+}
+
+
+
+
