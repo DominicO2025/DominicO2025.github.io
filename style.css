@@ -200,7 +200,6 @@ button {
   background: black;
   font-size: 25px;
   color: white;
-  padding: 20px;
 }
 
 .proj-img {
@@ -208,7 +207,6 @@ button {
   height: 300px; 
   width: 500px;
   border-radius: 25px;
-  padding: 20px;
 }
 
 .txt-img {
