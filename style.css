@@ -198,7 +198,7 @@ button {
   align-items: center;        /* vertical center */
 
   background: black;
-  font-size: 60px;
+  font-size: 25px;
   color: white;
   cursor: pointer;
   box-sizing: border-box;
