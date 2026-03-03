@@ -190,7 +190,7 @@ button {
 .divided-text {
   border: 3px solid white;
   border-radius: 25px;
-  height: 400px; 
+  height: 300px; 
   width: 500px;
 
   display: flex;              /* ADD THIS */
