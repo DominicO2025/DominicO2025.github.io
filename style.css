@@ -199,6 +199,7 @@ button {
 
   background: black;
   font-size: 10px;
+  font-color: white;
   cursor: pointer;
   box-sizing: border-box;
 }
