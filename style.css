@@ -204,8 +204,9 @@ button {
 
 .proj-img {
   border: 3px solid white;
-  height: 300px; 
-  width: 500px;
+  height: 100px; 
+  width: 100px;
+  border-radius: 25px;
 }
 
 
