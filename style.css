@@ -191,7 +191,7 @@ button {
   border: 3px solid white;
   border-radius: 25px;
   height: 300px; 
-  width: 500px;
+  width: clamp(20rem, 45vw, 45rem);
 
   display: flex;              
   justify-content: center;    
