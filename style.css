@@ -219,7 +219,7 @@ button {
 .proj-arcade-img {
   border: 3px solid white;
   height: 200px; 
-  width: clamp(20rem, 1vw, 45rem);
+  width: clamp(14rem, 20vw, 28rem);
   border-radius: 25px;
 }
 
