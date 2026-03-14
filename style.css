@@ -187,7 +187,7 @@ button {
 
 
 .divided-text {
-  border: 3px solid;
+  border: 3px solid black;
   height: 200px; 
   width: clamp(20rem, 30vw, 45rem);
 
