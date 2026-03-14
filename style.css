@@ -219,4 +219,14 @@ button {
   border-radius: 25px;
 }
 
+.ws-divided-text {
+  border: 3px solid black;
+  height: 500px; 
+  width: clamp(20rem, 30vw, 45rem);
 
+  display: flex;              
+
+  background: black;
+  font-size: 20px;
+  color: white;
+}
