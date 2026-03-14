@@ -187,7 +187,7 @@ button {
 
 
 .divided-text {
-  border: 3px solid white;
+  border: 3px solid;
   height: 200px; 
   width: clamp(20rem, 30vw, 45rem);
 
@@ -195,6 +195,7 @@ button {
 
   background: black;
   font-size: 20px;
+  color: white;
 }
 
 .proj-img {
