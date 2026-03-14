@@ -171,7 +171,6 @@ button {
   font-style: normal; 
   font-variation-settings: "wdth" 100;
   font-size: 25px;
-  align: center; 
 }
 
 .clickable-box-link {
@@ -189,13 +188,10 @@ button {
 
 .divided-text {
   border: 3px solid white;
-  border-radius: 25px;
   height: 200px; 
   width: clamp(20rem, 30vw, 45rem);
 
   display: flex;              
-  justify-content: center;    
-  align-items: center;        
 
   background: black;
   font-size: 20px;
