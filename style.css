@@ -221,7 +221,7 @@ button {
 
 .ws-divided-text {
   border: 3px solid black;
-  height: 200px; 
+  height: 300px; 
   width: clamp(20rem, 30vw, 45rem);
 
   display: flex;              
