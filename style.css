@@ -39,13 +39,12 @@ body {
 
 
 .text {
-  color: white;
-  font-family: "Playfair", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal; 
-  font-variation-settings: "wdth" 100;
-  text-align: center;
+    color: white;
+    font-family: "Playfair", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;            /* CHANGE <weight> to an actual value like 400 */
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
 
 .main-text {
@@ -111,21 +110,22 @@ button {
 }
 
 .proj-box {
-  border: 3px solid white;
-  border-radius: 25px;
-  height: 200px;
-  width: 200px;
+    border: 3px solid white;
+    border-radius: 25px;
+    height: 200px;
+    width: 200px;
 
-  display: flex;
-  justify-direction: colomn;
-  justify-content: center;   
-  align-items: center;
+    display: flex;
+    flex-direction: column;      /* ADD THIS */
+    justify-content: center;
+    align-items: center;
 
-  background: black;
-  font-size: 1.2rem;
-  cursor: pointer;
-  box-sizing: border-box;
-  text-align: center;
+    background: black;
+    font-size: 1.2rem;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 10px;               /* ADD THIS to prevent text touching the border */
+    text-align: center;          /* ADD THIS to center the text nicely */
 }
 
 .proj-link {
