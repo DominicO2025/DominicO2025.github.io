@@ -115,9 +115,10 @@ button {
   height: 200px;
   width: 200px;
 
-  display: flex;             
+  display: flex;
+  justify-direction: colomn;
   justify-content: center;   
-  align-items: center;       
+  align-items: center;
 
   background: black;
   font-size: 1.2rem;
