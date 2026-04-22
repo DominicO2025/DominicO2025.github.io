@@ -121,7 +121,7 @@ button {
     align-items: center;
 
     background: black;
-    font-size: 1.2rem;
+    font-size: 1rem;
     cursor: pointer;
     box-sizing: border-box;
     padding: 10px;               /* ADD THIS to prevent text touching the border */
