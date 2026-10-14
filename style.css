@@ -222,6 +222,20 @@ button {
   border-radius: 25px;
 }
 
+.job-img {
+  border: 3px solid white;
+  height: 200px; 
+  width: clamp(5rem, 20vw, 15rem);
+  border-radius: 25px;
+}
+
+.proj-huff-img {
+  border: 3px solid white;
+  height: 200px; 
+  width: clamp(5rem, 20vw, 40rem);
+  border-radius: 25px;
+}
+
 .ws-divided-text {
   border: 3px solid black;
   height: 350px; 
