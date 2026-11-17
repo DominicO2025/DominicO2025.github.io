@@ -68,10 +68,10 @@ function App() {
           <section>
             <h2 className="main-text" id="projects">Projects!</h2>
             <div className="project-text">
-              <Project href="?project=arcade" projectKey="arcade" title="Arcade Machine!" onProjectChange={openProject}>Revamped arcade machine able to handle multiple different arcade games.</Project>
-              <Project href="?project=website" projectKey="website" title="Website" onProjectChange={openProject}>This website created to give deeper information on who I am.</Project>
-              <Project href="?project=webscraper" projectKey="webscraper" title="League Arena Tracker" onProjectChange={openProject}>Using an API to scrape video game information for personal use!</Project>
-              <Project href="?project=huffman" projectKey="huffman" title="Huffman Encoder" onProjectChange={openProject}>Uses a Huffman tree to encode a txt file into binary.</Project>
+              <Project href="projects/Arcade-proj.html" projectKey="arcade" title="Arcade Machine!" onProjectChange={openProject}>Revamped arcade machine able to handle multiple different arcade games.</Project>
+              <Project href="projects/Website-proj.html" projectKey="website" title="Website" onProjectChange={openProject}>This website created to give deeper information on who I am.</Project>
+              <Project href="projects/Webscraper-proj.html" projectKey="webscraper" title="League Arena Tracker" onProjectChange={openProject}>Using an API to scrape video game information for personal use!</Project>
+              <Project href="projects/Huffman-proj.html" projectKey="huffman" title="Huffman Encoder" onProjectChange={openProject}>Uses a Huffman tree to encode a txt file into binary.</Project>
             </div>
           </section>
 
@@ -139,10 +139,10 @@ const projects = {
 } as const
 
 const projectLinks = [
-  ['Arcade Machine!', '?project=arcade', 'arcade'],
-  ['Website', '?project=website', 'website'],
-  ['League Arena Tracker', '?project=webscraper', 'webscraper'],
-  ['Huffman Encoder', '?project=huffman', 'huffman'],
+  ['Arcade Machine!', 'projects/Arcade-proj.html', 'arcade'],
+  ['Website', 'projects/Website-proj.html', 'website'],
+  ['League Arena Tracker', 'projects/Webscraper-proj.html', 'webscraper'],
+  ['Huffman Encoder', 'projects/Huffman-proj.html', 'huffman'],
 ] as const
 
 function ProjectPage({ project, onHome, onProjectChange }: { project: (typeof projects)[keyof typeof projects]; onHome: (hash?: string) => void; onProjectChange: (key: string) => void }) {
